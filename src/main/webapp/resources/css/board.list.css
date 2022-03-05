@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.wrapper{
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.title{
+	font-size: 2em;
+	margin: 5px;
+}
+.searchBar{
+	position: absolute;
+	right: 20px;
+	top: 10%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.searchSelc{
+	width: 160px;
+	height: 38px;
+}
+.searchInpt{
+	width: 230px;
+}
+#inpSearch{
+	height: 36px;
+	border: 1px solid;
+	border-radius: 3px;
+}
+.likeHateText, .likeHateText > a{
+	color: black;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.likeHateText > a:hover{
+	font-weight: bolder;
+	color: rgb(91, 189, 250);
+}
+.boardTr{
+	color: white;
+	background-color: #082546;
+}
+.listPoster{
+	width: 70px;
+	height: 90px;
+}
+.heartColor{
+	color: red;
+}
+.tableText a, .card-one a{
+	text-decoration: none;
+	color: black;
+}
+.uDetail{
+	margin-bottom: 15px;
+}
+.list-text{
+	margin: 0;
+}
+.regBtn{
+	float: right;
+}
+
+.card {
+	border:0;
+  }
+  .card-one{
+	width: 20%;
+	height: 500px;
+  }
+  
+  /* card group aka PRIMARY */
+  .card-group .card-primary:hover {
+	box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+	z-index: 100;
+  }
+  .card-group .card-primary:hover .card-title{
+	color: #4e22d0;
+  }
+  .card-group .card-primary .card-img-top{
+	width:150px;
+	height:170px;
+	margin: 40px auto 15px;
+  }
+  .card-group .card-primary .card-body > .movieTitle {
+	margin-bottom: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  }
+  .card-group .card-primary .card-body {
+	padding: 0 10px;
+  }
+  .card-group .card-primary .card-title {
+	color: #261c6a;
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 24px;
+	white-space: nowrap;
+	overflow: hidden;
+  	text-overflow: ellipsis;
+  }
+  .card-group .card-primary .card-text {
+	color: #261c6a;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	
+  }
+  .card-group .card-primary .card-footer {
+	padding: 10px 0 10px;
+	background: transparent;
+	border:0;
+  }
