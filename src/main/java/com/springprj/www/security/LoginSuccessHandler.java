@@ -51,7 +51,7 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 	public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
 			Authentication authentication) throws IOException, ServletException {
 		setAuthEmail(authentication.getName());
-		setAuthUrl("/home");
+		setAuthUrl("/");
 		LocalDateTime current = LocalDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE;
 		String formatted = current.format(formatter);
